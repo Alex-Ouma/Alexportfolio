@@ -4,18 +4,14 @@
 
 <template>
   <div class="about container">
-    <p class="text-center">
-      Hello! I'm Abraham Kibet, a passionate website developer with a background in computer science.
-      <br>
-      I am a fullstack developer with a background in computer science.
-    </p>
+
 
     <div class="">
       <h1 class="text-center text-2xl text-blue-900">
         My stacks are the following
       </h1>
-        <div class="flex gap-2 mt-4">
-          <div class="w-[49%] p-4 flex justify-center ">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+          <div class=" p-4 flex justify-center ">
            <div class="">
              <h3 class="text-xl font-semibold mb-2">Frontend Development</h3>
              <ul class="list-disc  pl-5 space-y-1">
