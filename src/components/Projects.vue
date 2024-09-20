@@ -4,13 +4,16 @@
 
 <template>
 
-<div class="container m-10">
+<div class="container p-10">
   <div class="grid grid-cols-1 md:grid-cols-2 ">
     <div class="">
       <h2 class="text-center uppercase mb-5">Completed projectss</h2>
-      <a href="https://telefarming.pages.dev/" target="_blank" class="p-2 bg-green-400 mx-4">Telephone farming</a>
-      <a href="https://eagles-investors.pages.dev/"  target="_blank" class="p-2 bg-blue-200">Eagles Website</a>
-      <p>For more information check my github <br>      <a href="https://github.com/abukbt13/"   target="_blank" class="p-1 bg-blue-200 mb-10">Github Account</a>
+        <div class="flex justify-center my-4">
+          <a href="https://telefarming.pages.dev/" target="_blank" class="p-2 bg-green-400 mx-4">Telephone farming</a>
+          <a href="https://eagles-investors.pages.dev/"  target="_blank" class="p-2 bg-blue-200">Eagles Website</a>
+
+        </div>
+      <p class="text-center">For more information check my github <br>      <a href="https://github.com/abukbt13/"   target="_blank" class="p-1 bg-blue-200 mb-10">Github Account</a>
       </p>
     </div>
     <div id="contact" class="mb-8">

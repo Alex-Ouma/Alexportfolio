@@ -5,10 +5,10 @@
 <template>
     <div  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-4 ">
       <div class="flex content1 justify-center  items-center">
-       <div class="ms-20">
+       <div class="p-2">
          <h1 class="text-4xl text-dark-200">Hi, I am <br> Abraham Kibet</h1>
          <p class=" text-xl w-[100%]">I'm a Full-Stack Developer with a passion for building dynamic and scalable web applications. I have experience working with a wide range of technologies and frameworks to deliver high-quality, responsive websites and web apps.</p>
-         <button class="p-2 bg-blue-400 my-4">Hire Me</button>
+         <button class="p-2 btn bg-blue-400 my-4">Hire Me</button>
        </div>
       </div>
       <div class="flex content2 justify-center items-center">
@@ -19,6 +19,14 @@
 </template>
 
 <style scoped>
+.btn{
+ transition: ease-in-out 1s;
+}
+.btn:hover{
+  background: orange;
+  font-size: 22px;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 600px) {
   .content1{
     object-fit: cover;
