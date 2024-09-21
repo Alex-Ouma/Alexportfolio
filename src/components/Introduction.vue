@@ -6,13 +6,13 @@
     <div  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-4 ">
       <div class="flex content1 justify-center  items-center">
        <div class="p-2">
-         <h1 class="text-4xl text-dark-200">Hi, I am <br> Abraham Kibet</h1>
-         <p class=" text-xl w-[100%]">I'm a Full-Stack Developer with a passion for building dynamic and scalable web applications. I have experience working with a wide range of technologies and frameworks to deliver high-quality, responsive websites and web apps.</p>
+         <h1 class="text-4xl text-dark-200">Hi, I am <br> Alex Barasa</h1>
+         <p class=" text-xl w-[100%]">I'm Cloud and Network security analyst with a passion for Securing Networks and intermediate web applications frontend. I have experience working with Eclectics Internation Limited As a penetration tester during my internship period i do deliver high-quality Security solutions.</p>
          <button class="p-2 btn bg-blue-400 my-4">Hire Me</button>
        </div>
       </div>
       <div class="flex content2 justify-center items-center">
-        <img src="/icon.png" class="object-fit" alt="">
+        <img src="/icon.jpg" class="object-fit" alt="">
       </div>
     </div>
 
